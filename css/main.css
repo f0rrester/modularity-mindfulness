@@ -59,8 +59,6 @@ footer {
   border-style: solid;
   border-width: 2px;
   border-color: #e2e2e2;
-  border-left: 0;
-  border-right: 0;
 }
 
 .p-1 {
@@ -68,14 +66,6 @@ footer {
 }
 
 @media only screen and (min-width: 38em) {
-
-  .first-card {
-    padding-right: .25em;
-  }
-
-  .second-card {
-    padding-left: .25em;
-  }
 
   .image-card {
     padding-right: .5em;
@@ -98,7 +88,6 @@ footer {
   }
 
   .image-card {
-    padding-right: 0;
     padding-left: .25em;
   }
 
