@@ -1,31 +1,53 @@
 html {
   font-family: "Noto Sans", sans-serif;
+}
+
+.btn-ghost {
+  color: #005e76;
+  border-color: #8bc9d9;
+  border-width: .1em;
+}
+
+.btn-ghost:hover {
+  background-color: #8bc9d9;
+  border-color: #005e76;
   color: #000;
 }
 
+.jp-lang {
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+
+.nav-styling a {
+  color: #005e76;
+  border-bottom: .1em solid #8bc9d9;
+  text-decoration: none;
+}
+
+.nav-styling a:hover {
+  border-color: #0084a6;
+}
+
+.section-border {
+  border-bottom: .1em solid #e2e2e2;
+  border-top: .1em solid #e2e2e2;
+}
+
 footer {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #e2e2e2;
-  border-left: 0;
-  border-right: 0;
-  border-bottom: 0;
+  border-top: .1em solid #e2e2e2;
+  color: #666;
 }
 
-a {
-  color: #005e76;
-  text-decoration: none;
-}
+@media only screen and (min-width: 60em) {
 
-.nav {
-  color: #005e76;
-  text-decoration: none;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #8bc9d9;
-  border-left: 0;
-  border-right: 0;
-  border-top: 0;
+  .nav-styling {
+    text-align: right;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
 }
 
 .nav:hover {
@@ -39,19 +61,6 @@ a {
   border-color: #e2e2e2;
   border-left: 0;
   border-right: 0;
-}
-
-.btn-ghost:hover {
-  background-color: #8bc9d9;
-  border-color: #0084a6;
-}
-
-.btn-ghost {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #8bc9d9;
-  border-radius: 5px;
-  background-color: #fff;
 }
 
 .p-1 {
